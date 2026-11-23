@@ -1,0 +1,7 @@
+<Solution>
+  <Configurations>
+    <Platform Name="x64" />
+    <Platform Name="x86" />
+  </Configurations>
+  <Project Path="MSNEmulator.vcxproj" Id="4593891c-bcb2-44b0-be66-653d88557da0" />
+</Solution>

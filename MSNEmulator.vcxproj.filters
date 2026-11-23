@@ -1,0 +1,113 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Исходные файлы">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;c++;cppm;ixx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Файлы заголовков">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;h++;hm;inl;inc;ipp;xsd</Extensions>
+    </Filter>
+    <Filter Include="Файлы ресурсов">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="Файлы заголовков\telegram">
+      <UniqueIdentifier>{c150df24-eff5-4dd8-b8ce-dc22500d49a8}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="main.c">
+      <Filter>Исходные файлы</Filter>
+    </ClCompile>
+    <ClCompile Include="switchboard.c">
+      <Filter>Исходные файлы</Filter>
+    </ClCompile>
+    <ClCompile Include="telebot\telebot.c">
+      <Filter>Исходные файлы</Filter>
+    </ClCompile>
+    <ClCompile Include="telebot\telebot-core.c">
+      <Filter>Исходные файлы</Filter>
+    </ClCompile>
+    <ClCompile Include="telebot\telebot-forums.c">
+      <Filter>Исходные файлы</Filter>
+    </ClCompile>
+    <ClCompile Include="telebot\telebot-games.c">
+      <Filter>Исходные файлы</Filter>
+    </ClCompile>
+    <ClCompile Include="telebot\telebot-inline.c">
+      <Filter>Исходные файлы</Filter>
+    </ClCompile>
+    <ClCompile Include="telebot\telebot-parser.c">
+      <Filter>Исходные файлы</Filter>
+    </ClCompile>
+    <ClCompile Include="telebot\telebot-passport.c">
+      <Filter>Исходные файлы</Filter>
+    </ClCompile>
+    <ClCompile Include="telebot\telebot-payments.c">
+      <Filter>Исходные файлы</Filter>
+    </ClCompile>
+    <ClCompile Include="telegram.c">
+      <Filter>Исходные файлы</Filter>
+    </ClCompile>
+    <ClCompile Include="socks5.c">
+      <Filter>Исходные файлы</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="switchboard.h">
+      <Filter>Файлы заголовков</Filter>
+    </ClInclude>
+    <ClInclude Include="telebot\telebot.h">
+      <Filter>Файлы заголовков\telegram</Filter>
+    </ClInclude>
+    <ClInclude Include="telebot\telebot-common.h">
+      <Filter>Файлы заголовков\telegram</Filter>
+    </ClInclude>
+    <ClInclude Include="telebot\telebot-core.h">
+      <Filter>Файлы заголовков\telegram</Filter>
+    </ClInclude>
+    <ClInclude Include="telebot\telebot-forums.h">
+      <Filter>Файлы заголовков\telegram</Filter>
+    </ClInclude>
+    <ClInclude Include="telebot\telebot-games.h">
+      <Filter>Файлы заголовков\telegram</Filter>
+    </ClInclude>
+    <ClInclude Include="telebot\telebot-inline.h">
+      <Filter>Файлы заголовков\telegram</Filter>
+    </ClInclude>
+    <ClInclude Include="telebot\telebot-methods.h">
+      <Filter>Файлы заголовков\telegram</Filter>
+    </ClInclude>
+    <ClInclude Include="telebot\telebot-parser.h">
+      <Filter>Файлы заголовков\telegram</Filter>
+    </ClInclude>
+    <ClInclude Include="telebot\telebot-passport.h">
+      <Filter>Файлы заголовков\telegram</Filter>
+    </ClInclude>
+    <ClInclude Include="telebot\telebot-payments.h">
+      <Filter>Файлы заголовков\telegram</Filter>
+    </ClInclude>
+    <ClInclude Include="telebot\telebot-private.h">
+      <Filter>Файлы заголовков\telegram</Filter>
+    </ClInclude>
+    <ClInclude Include="telebot\telebot-stickers.h">
+      <Filter>Файлы заголовков\telegram</Filter>
+    </ClInclude>
+    <ClInclude Include="telebot\telebot-types.h">
+      <Filter>Файлы заголовков\telegram</Filter>
+    </ClInclude>
+    <ClInclude Include="telegram.h">
+      <Filter>Файлы заголовков\telegram</Filter>
+    </ClInclude>
+    <ClInclude Include="socks5.h">
+      <Filter>Файлы заголовков</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <Text Include="spec.txt">
+      <Filter>Файлы ресурсов</Filter>
+    </Text>
+  </ItemGroup>
+</Project>

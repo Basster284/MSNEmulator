@@ -1,0 +1,7 @@
+{
+  "dependencies": [
+    "curl",
+    "json-c",
+    "sqlite3"
+  ]
+}
